@@ -43,38 +43,80 @@
 
 } */
 
+h1{
+    color:blue;
+    font-family: 'Work Sans', sans-serif;;
+    font-size: 30px;
+  }
+
 
 
   
   body {
     background-color:whitesmoke;
-    margin: 80px;
+    margin: 150px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+     justify-content: center;
   }
   
+
+
   .keyboard {
     display: flex;
   }
   
   .key {
-    height: calc(var(--width) * 4);
-    width: var(--width);
+    height: 60px;
+    width: 20px;
   }
   
-  .whitekey {
-    --width: 100px;
-    background-color: white;
-    border: 1px solid #333;
+  .white {
+    width: 40px;
+    height: 125px;
+    background-color: aliceblue;
+    border: 0.5px solid red;
   }
   
   
-  .blackkey {
-    --width: 60px;
-    background-color: black;
-    margin-left: calc(var(--width) / -2);
-    margin-right: calc(var(--width) / -2);
-    z-index: 2;
+  .black {
+    width: 20px;
+    height: 70px;
+    background-color:black ;
+    margin-right: -10px ;
+    margin-left: -10px;
+    z-index: 1;
   }
   
+  .vertical-menu {
+    width: 5px; /* Set a width if you like */
+    height: 1px;
+    justify-content: top;
+    margin-left: 40px ;
+    margin-right: 300px;
+    margin-bottom: 400px;
+    display: top;
+    padding: 0;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 50px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    width: 50px;
+    height: 10px;
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: whitesmoke; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color:bisque; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+

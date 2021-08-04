@@ -1,15 +1,3 @@
-// const triggerkey= document.querySelectorAll('.keyboard') 
-
-// triggerKey.forEach(keyboard => {
-//     keyboard.addEventListener('click', () => triggerNote (key))
-// })
-
-
-// function triggerNote(keyboard){
-//     const noteaudio= document.getElementById (keyboard.dataset.note)
-//     noteAudio.play()
-// }
-
 
 const keys = document.querySelectorAll('.key')
 const whiteKeys = document.querySelectorAll('.key.white')
