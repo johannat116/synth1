@@ -54,7 +54,10 @@ h1{
   
   body {
     background-color:whitesmoke;
-    margin: 150px;
+    margin:40px;
+    margin-left:40px;
+    margin-right: 700px;
+    margin-bottom: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +68,8 @@ h1{
 
   .keyboard {
     display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
   }
   
   .key {
@@ -90,22 +95,22 @@ h1{
   }
   
   .vertical-menu {
-    width: 5px; /* Set a width if you like */
+    width: 5px; 
     height: 1px;
     justify-content: top;
-    margin-left: 40px ;
+    margin-left: 200px ;
     margin-right: 300px;
     margin-bottom: 400px;
     display: top;
-    padding: 0;
+    padding: 50px;
   }
   
   .vertical-menu a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 50px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 50px; 
+    text-decoration: none; 
     width: 50px;
     height: 10px;
     

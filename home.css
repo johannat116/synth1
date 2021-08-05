@@ -1,7 +1,62 @@
 
 
 body{
-background-image: url('https://i.ibb.co/4Nq9scx/Screen-Shot-2021-08-04-at-2-03-17-AM.png');
+background-image: url('https://i.ibb.co/B6YC3Ts/Screen-Shot-2021-08-04-at-4-46-20-PM.png');
 font-family: 'Work Sans', sans-serif;;
-    font-size: 30px;
-  }
+font-size: 20px;
+margin-left: 200px;
+margin-bottom: 500px ;
+background-repeat: no-repeat;
+background-position-x:100px;
+background-position-y: 100px;
+background-color: whitesmoke;
+background-size:1000px ;
+margin-top:20px;
+}
+ 
+ .button {
+  display: block;
+  font-family: 'Work Sans', sans-serif;;
+  width: 80px;
+  height: 25px;
+  background:blue;
+  padding: 1px;
+  text-align: center;
+  border-radius: 130px;
+  color: red;
+  font-weight: bold;
+  line-height: 25px;
+  margin-top: 200px;
+  font-size: 15px;
+  margin-left: 200px;
+  box-shadow: 9px 4px 20px 50px burlywood;
+  margin-bottom: 200px;
+  margin-right: 100px;
+}
+
+
+.vertical-menu {
+  background-color:red; 
+  color: black; 
+  display: block; 
+  padding: 2px; 
+  text-decoration: none; 
+  width: 300px;
+  height: 500px;
+  margin-bottom: 300px;
+  margin-left: 600px;
+  margin-right: 20px;
+  position: inherit;
+  
+  
+}
+
+.vertical-menu a:hover {
+  background-color: whitesmoke; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color:bisque; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
